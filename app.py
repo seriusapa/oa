@@ -650,8 +650,8 @@ def handle_message(event):
                         text='This is my creator',
                         actions=[
                             URITemplateAction(
-                                label='>ƴudha<',
-                                uri='https://line.me/ti/p/~yud.xx'
+                                label='>BINTANG<',
+                                uri='https://line.me/ti/p/~bintanga2'
                             )
                         ]
                     ),
@@ -660,8 +660,8 @@ def handle_message(event):
                         text='This is my creator',
                         actions=[
                             URITemplateAction(
-                                label='>ƴudha<',
-                                uri='https://line.me/ti/p/%40ajd1759p'
+                                label='>BINTANG<',
+                                uri='https://line.me/ti/p/~bintanga2'
                             )
                         ]
                     ),
@@ -670,8 +670,8 @@ def handle_message(event):
                         text='Hehe',
                         actions=[
                             URITemplateAction(
-                                label='>ƴudha<',
-                                uri='https://yudhap.herokuapp.com'
+                                label='>BINTANG<',
+                                uri='https://line.me/ti/p/~bintanga2'
                             )
                         ]
                     ),
@@ -716,7 +716,7 @@ def handle_message(event):
             base_size=BaseSize(height=1040, width=1040),
             actions=[
                 URIImagemapAction(
-                    link_uri='https://line.me/ti/p/%40ajd1759p',
+                    link_uri='https://line.me/ti/p/~bintanga2',
                     area=ImagemapArea(
                         x=0, y=0, width=520, height=1040
                     )
@@ -739,7 +739,7 @@ def handle_message(event):
                 columns=[
                     ImageCarouselColumn(
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/16135443/IOS/sticker_animation@2x.png',
-                        action=URIAction(uri='http://line.me/ti/p/%40ajd1759p')
+                        action=URIAction(uri='https://line.me/ti/p/~bintanga2')
                     )
                 ]
             )
@@ -752,7 +752,7 @@ def handle_message(event):
                 columns=[
                     ImageCarouselColumn(
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/16135442/IOS/sticker_animation@2x.png',
-                        action=URIAction(uri='http://line.me/ti/p/%40ajd1759p')
+                        action=URIAction(uri='https://line.me/ti/p/~bintanga2')
                     )
                 ]
             )
@@ -765,7 +765,7 @@ def handle_message(event):
                 columns=[
                     ImageCarouselColumn(
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/15664374/IOS/sticker.png',
-                        action=URIAction(uri='http://line.me/ti/p/%40ajd1759p')
+                        action=URIAction(uri='https://line.me/ti/p/~bintanga2')
                     )
                 ]
             )
