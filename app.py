@@ -55,8 +55,8 @@ def callback():
 def handle_join(event):
     line_bot_api.reply_message(
         event.reply_token,[
-                TextSendMessage(text='Type Help for command :D'),
-                TextSendMessage(text='https://secreto.site/id/4462337')
+                TextSendMessage(text='Makasih Udah Invite Saya, ini adalah Owner dari akun Ini'),
+                TextSendMessage(text='https://www.instagram.com/aditiya230601')
         ])
     
 @handler.add(MessageEvent, message=TextMessage)
@@ -92,19 +92,19 @@ def handle_message(event):
                 event.reply_token,
                 TextSendMessage(text="Bot can't use profile in group chat"))
 
-    if text == '#yudbye':
+    if text == 'pamit':
         if isinstance(event.source, SourceGroup):
             line_bot_api.reply_message(
                 event.reply_token, [
-                    TextSendMessage(text='Yudha pergi bye-bye'),
-                    TextSendMessage(text='https://secreto.site/id/4462337')
+                    TextSendMessage(text='Aku pamit ya, bye bye'),
+                    TextSendMessage(text='https://www.instagram.com/aditiya230601')
                 ])
             line_bot_api.leave_group(event.source.group_id)
         elif isinstance(event.source, SourceRoom):
             line_bot_api.reply_message(
                 event.reply_token, [
-                    TextSendMessage(text='Yudha pergi bye-bye'),
-                    TextSendMessage(text='https://secreto.site/id/4462337')
+                    TextSendMessage(text='aku pergi bye-bye'),
+                    TextSendMessage(text='https://www.instagram.com/aditiya230601')
                 ])
             line_bot_api.leave_room(event.source.room_id)
         else:
@@ -469,8 +469,8 @@ def handle_message(event):
                         text='/musik'
                     ),
                     MessageTemplateAction(
-                        label='Bot bye',
-                        text='#yudbye'
+                        label='star bye',
+                        text='starbye'
                     )
                 ]
             )
@@ -709,7 +709,7 @@ def handle_message(event):
         line_bot_api.reply_message(event.reply_token, buttons_template)
         return 0
 #=====[ FLEX MESSAGE ]==========[ ARSYBAI ]======================
-    elif text == 'yud test':
+    elif text == 'test':
         message = ImagemapSendMessage(
             base_url='https://i.imgur.com/g8P1V9Q.jpg',
             alt_text='manyimak corom',
@@ -722,7 +722,7 @@ def handle_message(event):
                     )
                 ),
                 MessageImagemapAction(
-                    text='yudha ganteng',
+                    text='bintang ganteng',
                     area=ImagemapArea(
                         x=520, y=0, width=520, height=1040
                     )
