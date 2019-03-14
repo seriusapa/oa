@@ -32,9 +32,9 @@ from linebot.models import (
 app = Flask(__name__)
 
 # Channel Access Token
-line_bot_api = LineBotApi('H5RgqN/ilEbijZhkz0hLpeBH2oU4CnO8N5eIiLf08jT9gzTDh8Wc7kMCfK95BxooMORCqfCjRZX6nL+OSxeXwXQ1DWxLXh/GV+h6Qey3ugvm3zGOCz3h8t2BdvhpMa4prkBO8Pk8MS04HGRGYZkvugdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('pPSIrD1zkw9PGan8j60jZz2XnRAQ0wl1PbPqeJpDIo/Pxyo9nw0SU6vRnmJsyJeyp+mJ8rl+5XmCkGylYXWDlq4CXLFhwHyXs5/VKnwr1D0QjcGqg/ujj/+tWEdGKSSpTuySVebRbuSqU6aN1SmCnQdB04t89/1O/w1cDnyilFU=')
 # Channel Secret NINO LIFF BOT
-handler = WebhookHandler('76b826d87981a528b8819e8a95d91d14')
+handler = WebhookHandler('9adc6cf3ea43670b40c8116103912814')
 #===========[ NOTE SAVER ]=======================
 notes = {}
 tokenz = {}
